@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda 2030 - Os 17 Objetivos de Desenvolvimento Sustentável</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Seu CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🌿 Agenda 2030 - ODS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ods-carrossel">Os 17 ODS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cadastro">Cadastre-se</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="py-5 bg-white border-bottom mb-4">
+        <div class="container text-center py-4">
+            <h1 class="display-4 fw-bold">Transformando Nosso Mundo</h1>
+            <p class="lead text-muted col-lg-8 mx-auto">Conheça os 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU para erradicar a pobreza, proteger o planeta e garantir a prosperidade para todos.</p>
+        </div>
+    </header>
+
+    <!-- Seção do Carrossel com os 17 ODS (divididos em blocos por slide) -->
+    <main class="container my-5" id="ods-carrossel">
+        <h2 class="text-center mb-4 fw-bold">Explore os 17 ODS</h2>
+        
+        <div id="odsCarousel" class="carousel slide p-4 shadow-sm" data-bs-ride="carousel">
+            
+            <!-- Indicadores do Carrossel (6 slides para cobrir os 17) -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#odsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#odsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#odsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#odsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#odsCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#odsCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+
+            <!-- Itens do Carrossel -->
+            <div class="carousel-inner py-3">
+                
+                <!-- SLIDE 1 (ODS 1 ao 3) -->
+                <div class="carousel-item active">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 1</h5>
+                                <p class="text-muted small">Erradicação da Pobreza</p>
+                                <a href="ods1.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 2</h5>
+                                <p class="text-muted small">Fome Zero e Agricultura Sustentável</p>
+                                <a href="ods2.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 3</h5>
+                                <p class="text-muted small">Saúde e Bem-Estar</p>
+                                <a href="ods3.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SLIDE 2 (ODS 4 ao 6) -->
+                <div class="carousel-item">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 4</h5>
+                                <p class="text-muted small">Educação de Qualidade</p>
+                                <a href="ods4.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 5</h5>
+                                <p class="text-muted small">Igualdade de Gênero</p>
+                                <a href="ods5.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 6</h5>
+                                <p class="text-muted small">Água Potável e Saneamento</p>
+                                <a href="ods6.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SLIDE 3 (ODS 7 ao 9) -->
+                <div class="carousel-item">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 7</h5>
+                                <p class="text-muted small">Energia Acessível e Limpa</p>
+                                <a href="ods7.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 8</h5>
+                                <p class="text-muted small">Trabalho Decente e Crescimento Econômico</p>
+                                <a href="ods8.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 9</h5>
+                                <p class="text-muted small">Indústria, Inovação e Infraestrutura</p>
+                                <a href="ods9.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SLIDE 4 (ODS 10 ao 12) -->
+                <div class="carousel-item">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 10</h5>
+                                <p class="text-muted small">Redução das Desigualdades</p>
+                                <a href="ods10.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 11</h5>
+                                <p class="text-muted small">Cidades e Comunidades Sustentáveis</p>
+                                <a href="ods11.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 12</h5>
+                                <p class="text-muted small">Consumo e Produção Responsáveis</p>
+                                <a href="ods12.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SLIDE 5 (ODS 13 ao 15) -->
+                <div class="carousel-item">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 13</h5>
+                                <p class="text-muted small">Ação Contra a Mudança Global do Clima</p>
+                                <a href="ods13.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 14</h5>
+                                <p class="text-muted small">Vida na Água</p>
+                                <a href="ods14.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 15</h5>
+                                <p class="text-muted small">Vida Terrestre</p>
+                                <a href="ods15.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SLIDE 6 (ODS 16 e 17) -->
+                <div class="carousel-item">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 16</h5>
+                                <p class="text-muted small">Paz, Justiça e Instituições Eficazes</p>
+                                <a href="ods16.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3">
+                                <h5>ODS 17</h5>
+                                <p class="text-muted small">Parcerias e Meios de Implementação</p>
+                                <a href="ods17.html" class="btn btn-outline-success btn-sm mt-auto">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Botões de Controle do Carrossel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#odsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#odsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </main>
+
+    <!-- Formulário de Cadastro Obrigatório -->
+    <section class="bg-white py-5 border-top" id="cadastro">
+        <div class="container col-md-6">
+            <h2 class="text-center mb-4 fw-bold">Participe do Movimento</h2>
+            <form class="p-4 border rounded shadow-sm">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <button type="submit" class="btn btn-success w-100">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="text-center py-4 text-white">
+        <p class="mb-0">&copy; 2026 - Trabalho Acadêmico ODS | Desenvolvido com Bootstrap</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* =========================================
+   VARIÁVEIS DE CORES (Tons Pastéis & Verdes Fortes)
+   ========================================= */
+:root {
+    --verde-principal: #1b4332;      /* Verde floresta forte para navbar, títulos e rodapé */
+    --verde-secundario: #2d6a4f;    /* Verde intermediário para interações e hover */
+    --verde-suave: #d8f3dc;         /* Fundo pastel verde super leve para caixas de destaque */
+    --fundo-pastel: #f4f7f5;        /* Tom de fundo geral cinza-esverdeado minimalista e limpo */
+    --cinza-texto: #495057;         /* Cor suave para textos (evita o preto puro) */
+    --branco: #ffffff;
+}
+
+/* =========================================
+   ESTILOS GERAIS & TIPOGRAFIA
+   ========================================= */
+body {
+    background-color: var(--fundo-pastel);
+    color: var(--cinza-texto);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+}
+
+/* Títulos com o verde forte da natureza */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--verde-principal);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* =========================================
+   COMPONENTES PERSONALIZADOS
+   ========================================= */
+
+/* Navbar Minimalista com Verde Forte */
+.navbar {
+    background-color: var(--verde-principal) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: var(--branco) !important;
+    transition: opacity 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+    opacity: 0.8;
+    font-weight: 600;
+}
+
+/* Cards dos ODS no Carrossel (Visual limpo, bordas sutis e efeito de elevação) */
+.card {
+    background-color: var(--branco);
+    border: 1px solid rgba(45, 106, 79, 0.15) !important;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(27, 67, 50, 0.08) !important;
+    border-color: var(--verde-secundario) !important;
+}
+
+/* Botões do Site */
+.btn-success {
+    background-color: var(--verde-principal) !important;
+    border-color: var(--verde-principal) !important;
+    border-radius: 8px;
+    padding: 0.5rem 1.25rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.btn-success:hover {
+    background-color: var(--verde-secundario) !important;
+    border-color: var(--verde-secundario) !important;
+}
+
+/* Botões com contorno */
+.btn-outline-success {
+    color: var(--verde-principal) !important;
+    border-color: var(--verde-principal) !important;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.btn-outline-success:hover {
+    background-color: var(--verde-principal) !important;
+    color: var(--branco) !important;
+}
+
+/* Carrossel Customizado */
+.carousel {
+    background-color: var(--branco);
+    border-radius: 16px;
+    border: 1px solid rgba(45, 106, 79, 0.1);
+}
+
+/* Indicadores (bolinhas) do Carrossel com o verde forte */
+.carousel-indicators [data-bs-target] {
+    background-color: var(--verde-principal);
+}
+
+/* Setas de navegação do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--verde-principal);
+    border-radius: 50%;
+    padding: 1.2rem;
+    background-size: 50%, 50%;
+}
+
+/* Formulário de Cadastro Minimalista */
+form {
+    background-color: var(--branco) !important;
+    border-radius: 12px;
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem;
+    background-color: #fafbfc;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--verde-secundario);
+    box-shadow: 0 0 0 0.25rem rgba(45, 106, 79, 0.15);
+}
+
+/* Caixa de destaque em tom pastel para páginas internas (Metas/Explicações) */
+.eco-box {
+    background-color: var(--verde-suave);
+    border-left: 5px solid var(--verde-secundario);
+    padding: 2rem;
+    border-radius: 0 12px 12px 0;
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--verde-principal) !important;
+    color: var(--branco);
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
